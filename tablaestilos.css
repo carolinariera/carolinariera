@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#central {
+
+    background-color: gainsboro;
+    width: 90%;
+    font-family: verdana;
+}
+
+article {
+    float: left;
+    width: 25%;
+}
+
+
+header,
+h4 {
+    padding: 6px;
+
+}
+
+h3 {
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+
+    background-color: green;
+    border: 10px;
+    text-align: center;
+
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+li {
+    border: 1px solid black;
+    margin-bottom: 1px solid black;
+
+}
+
+#limpiar {
+    clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    article {
+        width: 50%;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+
+    article {
+        width: 100%;
+        margin-top: 24px;
+    }
+}
